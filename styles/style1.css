@@ -1,0 +1,30 @@
+header{
+	background-color: #EAEAEA;
+	height: 70px;
+}
+h1{
+	margin: auto;
+}
+body{
+	margin: 0 auto;
+}
+.main{
+	margin-left: 205px;
+	height: 0;
+}
+aside{
+	width: 200px;
+	background-color: #C8FC98; 
+}
+.txt{
+	width: 190px;
+}
+a{
+	color: #FFFF80;
+	margin:auto;
+}
+footer{
+	background-color:black;
+	height: 30px;
+	display: flex;
+}
