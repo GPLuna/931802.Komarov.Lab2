@@ -1,0 +1,31 @@
+div{
+  display: flex;
+  background-color: aqua;
+}
+
+ul {
+  background-color: bisque;
+  width: 150px;
+  flex-shrink: 0;
+  height: max-content;
+  margin: 0;
+  padding: 20px 0 20px 40px;
+}
+
+
+
+main {
+  background-color: darkgray;
+}
+
+main > p{
+  margin: 0;
+}
+
+footer{
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: limegreen;
+  bottom: 0;
+}

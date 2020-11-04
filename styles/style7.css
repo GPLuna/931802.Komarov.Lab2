@@ -1,0 +1,44 @@
+body{
+	color:white;
+}
+.div1{
+	background-color: blueviolet;
+	max-width: 150px;
+	min-height: 100px;
+}
+.div2{
+	background-color: darkred;
+	max-width: 150px;
+	min-height: 100px;
+	position: relative;
+}
+.div3{
+	background-color: peru;
+	max-width: 150px;
+	min-height: 100px;
+	position: relative;
+	left: 30px;
+	bottom: 30px;
+}
+.div4{
+	background-color: indianred;
+	max-width: 600px;
+	min-height: 400px;
+	position: relative;
+}
+.div5{
+	background-color: indigo;
+	min-width: 300px;
+	min-height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+}
+.div6{
+	background-color: forestgreen ;
+ 	height: 80px;
+  	position: fixed;
+  	right: 0;
+  	bottom: 0;
+}
+

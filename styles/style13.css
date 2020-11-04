@@ -1,0 +1,48 @@
+div {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid green;
+}
+
+nav {
+  background-color: bisque;
+  box-sizing: border-box;
+  width: 500px;
+  flex-shrink: 0;
+  height: max-content;
+ 
+}
+
+p{
+  margin: 0;
+}
+
+main {
+  background-color: darkgray;
+  min-width: 400px;
+}
+
+img{
+  float:right;
+  width:50%;
+}
+
+@media screen and (max-width: 620px) {
+  main{
+    flex-wrap: wrap;
+  }
+  main{
+    max-width: 380px;
+  }
+  nav{
+    max-width: 120px;
+  }
+}
+
+@media screen  and (min-width: 621px){
+  p:last-child{
+    clear: both;
+  }
+}

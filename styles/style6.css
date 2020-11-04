@@ -1,0 +1,14 @@
+.main1{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+
+}
+
+.main2{
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    border: 10px solid blue;
+    padding: 50px;
+}

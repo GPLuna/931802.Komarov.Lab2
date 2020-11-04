@@ -1,0 +1,18 @@
+p{
+	margin: 0;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.box > div {
+  background-color: aquamarine;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+.txt {
+  background-color: bisque;
+}
